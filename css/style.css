@@ -1,1 +1,53 @@
+h1, h2, h3, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
 
+nav {
+
+    background-color: white;
+    font-size: 20px;
+}
+h1 {
+    color: rgb(23, 219, 23);
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 20px;
+    font-style: italic;
+}
+
+h3{
+    font-size: 22px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.main-body{
+    background-color: rgb(61, 61, 61);
+}
+
+#copyright{
+    font-size: 13px;
+}
+
+/* Styling Links */
+
+a:link{
+    color:#17db17 ;
+}
+
+a:visited{
+    color: #17db17 ;
+}
+a:hover{
+    color: blueviolet;
+}
+
+a:active{
+    color: blueviolet;
+}
