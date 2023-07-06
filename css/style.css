@@ -5,7 +5,7 @@ h1, h2, h3, p {
 
 nav {
 
-    background-color: white;
+
     font-size: 20px;
 }
 h1 {
@@ -39,6 +39,7 @@ p{
 
 a:link{
     color:#17db17 ;
+    margin-right: 30px;
 }
 
 a:visited{
@@ -50,4 +51,12 @@ a:hover{
 
 a:active{
     color: blueviolet;
+}
+
+/* Using FlexBox */
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
